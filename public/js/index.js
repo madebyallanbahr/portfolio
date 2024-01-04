@@ -1,1 +1,1 @@
-// TODO
+// Testing my new keyboard to learn and program a nem ecosystem in Javascript

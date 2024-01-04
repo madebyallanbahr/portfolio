@@ -1,11 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap');
 
-:root {
-    --color: #333;
-    /* TODO */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--fontFamilyDefault);
 }
 
-.icon-instagram:hover{
+:root {
+    /* Theme Dark */
+    --backgroundDarkTheme: #090909;
+    --layerDarkTheme: #0B0B0B;
+    --borderDarkTheme: #1C1C1C;
+    --textColorDarkTheme: #8A8A8A;
+
+    /* Theme Light */
+    --backgroundLightTheme: #fff;
+    --layerLightTheme: #fff;
+
+    /* Default */
+    --navbarFontSize: 16px;
+    --titleOverview: 40px;
+    --subtitleOverview: 20px;
+    --fontFamilyDefault: 'Inter';
+}
+
+.icon-instagram:hover {
     opacity: 0.5;
     cursor: pointer;
 }
