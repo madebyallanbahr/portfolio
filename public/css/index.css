@@ -5,6 +5,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: var(--fontFamilyDefault);
+    color: var(--textColorDarkTheme);
 }
 
 :root {
@@ -25,7 +26,33 @@
     --fontFamilyDefault: 'Inter';
 }
 
-.icon-instagram:hover {
-    opacity: 0.5;
-    cursor: pointer;
+.bg{
+    background-color: var(--backgroundDarkTheme);
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+    background-color: var(--layerDarkTheme);
+    margin: 0px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: 7vh;
+    border: 1px solid var(--borderDarkTheme);
+    border-radius: 5px;
+
+}
+.header-nav-title{
+    font-size: 16px;
+    font-weight: bold;
 }
