@@ -63,8 +63,10 @@
   display: flex;
   list-style: none;
 }
-
-.header-nav-menu-item {
+.header-nav-menu-icon.disabled{
+  display: none;
+}
+.header-nav-menu-item, .header-nav-menu-icon {
   margin: 15px;
   padding: 15px;
 }
@@ -101,8 +103,11 @@
 /* _______________ */
 /*   Media Query   */
 /* --------------- */
-@media (max-width: 640px) {
+@media (max-width: 780px) {
   .header-nav-menu-item{
+    display: none;
+  }
+  .moon-icon{
     display: none;
   }
 }
