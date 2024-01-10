@@ -107,7 +107,9 @@
 .main-overview-sec-change {
   margin: 5px;
 }
-
+.main-overview-sec-changer-circle.actived{
+  fill: #8a8a8a;
+}
 /* _______________ */
 /*     Footer      */
 /* --------------- */
