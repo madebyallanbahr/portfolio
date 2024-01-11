@@ -1,0 +1,1 @@
+// Added switch theme mecanic
